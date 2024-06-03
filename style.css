@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+#left{
+    width: 80%;
+    height: 100%;
+    background-color: goldenrod;
+}
+
+#left #top{
+    width: 100%;
+    height: 70%;
+    background-image: url(/Assets/Img/sabrina-mazzeo-5jvYp-BjzQA-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+#left #topflower{
+    width: 100px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.452);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#topflower i{
+    position: relative;
+    top: 30%;
+    left:30%;
+    font-size: 30px;
+
+}
+#left #bottom{
+    width: 100%;
+    height: 30%;
+    background-color:#222 ;
+    padding: 100px;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+}
+#content #contentleft{
+    width: 45%;
+    height: 100%;
+}
+#content #contentleft p{
+    width: 70%;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
+#content #contentright{
+    width: 45%;
+    height: 100%;  
+}
+.row{
+    padding-right:200px ;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.relem{
+    display: flex;
+}
+.relem .relemtxt{
+    margin-left: 5px;
+}
+.relem .relemtxt h6{
+    opacity: .5;
+    font-weight: 500;
+}
+#right{
+    width: 20%;
+    height: 100%;
+    
+}
+
+#right #top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+    padding: 70px;
+}
+#right #top a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+/* #right #top a:nth-child(2){
+    position: relative;
+    margin-left: 20px;
+    
+}
+#right #top a:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 7px;
+    width: 10px;
+    height: 2px;
+    background-color: #000;
+
+} */
+#right #top .selected{
+    position: relative;
+    margin-left: 20px;
+    
+}
+#right #top .selected::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 7px;
+    width: 10px;
+    height: 2px;
+    background-color: #000;
+
+}
+#icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    padding: 30px;
+
+}
+.icons i{
+    font-size: 20px;
+}
+#btmflower{
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(/Assets/Img/martin-adams-MpTdvXlAsVE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#btmflower i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color:#fff;
+    /* display:flex ;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 50%;
+    
+}
+#right #bottom{
+    width: 100%;
+    height: 30%;
+    background-image: url(/Assets/Img/sarah-dorweiler-m2J105CzEAU-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#right #bottom .capsol{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 90%;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+#right #bottom .capsol h2{
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 1;
+}
+#right #bottom .capsol p{
+    font-size: 12px;
+    width: 90%;
+    font-weight: 500;
+    opacity: .5;
+    
+}
+
